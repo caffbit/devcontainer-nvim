@@ -1,0 +1,32 @@
+{
+	"name": "Debian",
+	"image": "mcr.microsoft.com/devcontainers/base:debian",
+	"features": {
+		"ghcr.io/devcontainers/features/common-utils:2": {
+			"installZsh": true,
+			"configureZshAsDefaultShell": true,
+			"installOhMyZsh": true,
+			"installOhMyZshConfig": false
+		},
+		"ghcr.io/devcontainers/features/python:1": {
+			"version": "3.12"
+		},
+		"ghcr.io/devcontainers/features/node:1": {
+			"version": "lts",
+			"installYarnUsingApt": "false"
+		},
+		"ghcr.io/devcontainers-extra/features/tmux-apt-get:1.0.17": {},
+		"ghcr.io/devcontainers-extra/features/fd:1": {},
+		"ghcr.io/devcontainers-extra/features/fzf:1": {},
+		"ghcr.io/devcontainers-extra/features/ripgrep:1": {},
+		"ghcr.io/devcontainers-extra/features/starship:1": {},
+		"ghcr.io/devcontainers-extra/features/eza:1": {},
+		"./features/aider": {},
+		"./features/neovim": {},
+		"./features/zoxide": {}
+	}
+	// "runArgs": [
+	// 	"--env-file",
+	// 	"/Users/callum/.env"
+	// ]
+}

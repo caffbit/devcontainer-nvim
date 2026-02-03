@@ -1,0 +1,14 @@
+{
+  "id": "aider-chat",
+  "version": "1.0.0",
+  "name": "Aider Chat",
+  "description": "Installs aider-chat via pipx",
+  "dependsOn": {
+    "ghcr.io/devcontainers/features/python": {
+      "version": "3.12"
+    }
+  },
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/python"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "neovim",
+  "version": "1.0.0",
+  "name": "Neovim",
+  "description": "Installs Neovim text editor",
+  "options": {
+    "version": {
+      "type": "string",
+      "default": "stable",
+      "description": "Neovim version (stable or specific version like 0.9.5)"
+    }
+  }
+}
