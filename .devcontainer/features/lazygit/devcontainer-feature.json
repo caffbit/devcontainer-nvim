@@ -1,0 +1,16 @@
+{
+  "id": "lazygit",
+  "version": "1.0.0",
+  "name": "Lazygit",
+  "description": "A simple terminal UI for git commands",
+  "options": {
+    "version": {
+      "type": "string",
+      "default": "latest",
+      "description": "Select version of lazygit to install"
+    }
+  },
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/common-utils"
+  ]
+}
