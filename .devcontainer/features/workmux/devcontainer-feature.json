@@ -1,0 +1,7 @@
+{
+  "id": "workmux",
+  "version": "1.0.0",
+  "name": "workmux",
+  "description": "git worktrees + tmux windows for zero-friction parallel dev"
+}
+
