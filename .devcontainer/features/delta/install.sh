@@ -13,14 +13,14 @@ esac
 
 # Get latest version if needed
 if [ "${VERSION}" = "latest" ]; then
-    VERSION=$(curl -s https://api.github.com/repos/dandavison/delta/releases/latest | grep '"tag_name":' | sed -E 's/.*"v([^"]+)".*/\1/')
+    VERSION=$(curl -s https://api.github.com/repos/dandavison/delta/releases/latest | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/')
 fi
 
 echo "Installing delta version ${VERSION} (${ARCH})..."
 
 # Download .deb package
 DEB_FILE="/tmp/git-delta.deb"
-DOWNLOAD_URL="https://github.com/dandavison/delta/releases/download/v${VERSION}/git-delta_${VERSION}_${ARCH}.deb"
+DOWNLOAD_URL="https://github.com/dandavison/delta/releases/download/${VERSION}/git-delta_${VERSION}_${ARCH}.deb"
 
 curl -fsSL -o "${DEB_FILE}" "${DOWNLOAD_URL}"
 
