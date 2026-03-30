@@ -25,7 +25,8 @@
     "./features/neovim": {},
     "./features/lazygit": {},
     "./features/workmux": {},
-    "./features/delta": {}
+    "./features/delta": {},
+    "./features/tmux-file-picker": {}
   },
   "runArgs": ["--env-file", "/Users/0xca11/.env"]
 }

@@ -1,0 +1,11 @@
+{
+  "id": "tmux-file-picker",
+  "version": "1.0.0",
+  "name": "tmux-file-picker",
+  "description": "A tmux file picker using fzf and fd",
+  "documentationURL": "https://github.com/raine/tmux-file-picker",
+  "options": {},
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/common-utils"
+  ]
+}
