@@ -1,0 +1,16 @@
+{
+  "id": "delta",
+  "version": "1.0.0",
+  "name": "Delta",
+  "description": "A syntax-highlighting pager for git and diff output",
+  "options": {
+    "version": {
+      "type": "string",
+      "default": "latest",
+      "description": "Select version of delta to install (e.g., 0.19.2)"
+    }
+  },
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/common-utils"
+  ]
+}
