@@ -7,26 +7,27 @@
       "installZsh": true,
       "configureZshAsDefaultShell": true,
       "installOhMyZsh": true,
-      "installOhMyZshConfig": false
+      "installOhMyZshConfig": false,
     },
     "ghcr.io/devcontainers/features/python:1": {
-      "version": "3.12"
+      "version": "3.12",
     },
     "ghcr.io/devcontainers/features/node:1": {
       "version": "lts",
-      "installYarnUsingApt": "false"
+      "installYarnUsingApt": "false",
     },
-    "ghcr.io/devcontainers-extra/features/tmux-apt-get:1.0.17": {},
+    "ghcr.io/devcontainers-extra/features/apt-get-packages:1": {
+      "packages": ["vim", "tmux"],
+    },
     "ghcr.io/devcontainers-extra/features/fd:1": {},
     "ghcr.io/devcontainers-extra/features/fzf:1": {},
     "ghcr.io/devcontainers-extra/features/ripgrep:1": {},
     "ghcr.io/devcontainers-extra/features/opencode:1": {},
     "./features/aider": {},
-    "./features/neovim": {},
     "./features/lazygit": {},
     "./features/workmux": {},
     "./features/delta": {},
-    "./features/tmux-file-picker": {}
+    "./features/tmux-file-picker": {},
   },
-  "runArgs": ["--env-file", "/Users/0xca11/.env"]
+  "runArgs": ["--env-file", "/Users/0xca11/.env"],
 }
